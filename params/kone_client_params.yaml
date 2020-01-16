@@ -1,0 +1,52 @@
+kone_open_opc_controller:
+    ros__parameters:
+        simu: True
+        connection_timeout: 5
+        read_timeout: 15
+        lift_request_topic: 'lift_request'
+        lift_state_topic: 'lift_state'
+
+        lift_info_1_id: 'KoneLift1'
+        lift_info_1_gateway_ip: '172.16.23.136'
+        lift_info_1_gateway_port: 7766
+        lift_info_1_opc_serv_ip: 'localhost'
+        lift_info_1_opc_serv_type: 'Matrikon.OPC.Simulation'
+        lift_info_1_opc_group: 'Group0'
+        lift_info_1_site: 'Site'
+        lift_info_1_location: 'Location'
+        lift_info_1_group: 'Group'
+        lift_info_1_lift: 'Lift1'
+        lift_info_1_available_floors: [':1', ':2', ':3', ':4', ':5']
+        lift_info_1_available_door_sides: [1, 1, 2, 1, 1]
+        lift_info_1_available_modes: [1, 2]
+        lift_info_1_default_mode: 2
+
+        lift_info_2_id: 'KoneLift2'
+        lift_info_2_gateway_ip: '172.16.23.136'
+        lift_info_2_gateway_port: 7766
+        lift_info_2_opc_serv_ip: 'localhost'
+        lift_info_2_opc_serv_type: 'Matrikon.OPC.Simulation'
+        lift_info_2_opc_group: 'Group0'
+        lift_info_2_site: 'Site'
+        lift_info_2_location: 'Location'
+        lift_info_2_group: 'Group'
+        lift_info_2_lift: 'Lift2'
+        lift_info_2_available_floors: [':1', ':2', ':3', ':4', ':5']
+        lift_info_2_available_door_sides: [1, 1, 2, 1, 1]
+        lift_info_2_available_modes: [1, 2]
+        lift_info_2_default_mode: 2
+        
+        lift_info_3_id: 'KoneLift3'
+        lift_info_3_gateway_ip: '172.16.23.136'
+        lift_info_3_gateway_port: 7766
+        lift_info_3_opc_serv_ip: 'localhost'
+        lift_info_3_opc_serv_type: 'Matrikon.OPC.Simulation'
+        lift_info_3_opc_group: 'Group0'
+        lift_info_3_site: 'Site'
+        lift_info_3_location: 'Location'
+        lift_info_3_group: 'Group'
+        lift_info_3_lift: 'Lift3'
+        lift_info_3_available_floors: [':1', ':2', ':3', ':4', ':5']
+        lift_info_3_available_door_sides: [1, 1, 2, 1, 1]
+        lift_info_3_available_modes: [1, 2]
+        lift_info_3_default_mode: 1
