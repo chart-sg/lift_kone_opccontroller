@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>kone_opc_controller</name>
+  <version>0.0.0</version>
+  <description>Kone OPC controller</description>
+  <maintainer email="marc.testier@gmail.com">Marc-Antoine Testier</maintainer>
+  <author email="marc.testier@gmail.com">Marc-Antoine Testier</author>
+  <license>Apache License 2.0</license>
+
+
+  <build_depend>rmf_msgs</build_depend>
+  <exec_depend>rmf_msgs</exec_depend>
+
+  <build_depend>open_opc_gateway_client</build_depend>
+  <exec_depend>open_opc_gateway_client</exec_depend>
+  
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>rclpy</test_depend>
+  <test_depend>std_msgs</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
